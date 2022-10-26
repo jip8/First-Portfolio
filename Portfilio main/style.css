@@ -33,23 +33,24 @@ main {
     height: 1500px;
     padding: 10px;
     margin: auto;
+    margin-top: 15px;
     margin-bottom: 15px;
 }
 
 img{
     
-    max-height: 320px;
-    max-width: 320px;
+    height: 350px;
+    width: 350px;
     border-radius:  50%;
     
     box-shadow: 5px 5px 5px var(--color4);
 
-    display: block;
-    margin: auto;
+
+    margin: 20px 5px 20px 40px;
 }
 
 h1 {
-    text-align: center;
+    text-align: left;
     font-size: 3em;
     margin: auto;
     margin-top: 0px;
@@ -78,10 +79,6 @@ ul {
     list-style-position: inside;
 }
 
-aside > ul {
-    list-style-position: inside;
-}
-
 footer{
     margin: 0px;
     background-color: var(--color3);
@@ -89,4 +86,24 @@ footer{
 
 .lang{
     text-align: right;
+}
+
+div {
+    background-color: rgba(128, 128, 128, 0.495);
+    padding: 10px;
+    margin: 10px;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    width: 1010px;
+    height: 400px;
+}
+
+.contatos {
+    
+    align-items: stretch;
+    
+    margin: 10px 10px 10px 10px;
 }
