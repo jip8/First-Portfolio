@@ -22,7 +22,6 @@ body{
 
 }
 
-
 main {
     background-color: #ffffff;
     border-radius: 10px;
@@ -38,14 +37,10 @@ main {
 }
 
 img{
-    
     height: 350px;
     width: 350px;
     border-radius:  50%;
-    
     box-shadow: 5px 5px 5px var(--color4);
-
-
     margin: 20px 5px 20px 40px;
 }
 
@@ -94,6 +89,21 @@ div {
     margin: 10px;
 }
 
+.left{
+    height: 965px;
+    width: 590px;
+}
+
+.right{
+    height: 965px;
+    width: 380px;
+}
+
+article {
+    display: flex;
+    flex-direction: row;
+}
+
 .top {
     display: flex;
     flex-direction: row;
@@ -102,8 +112,6 @@ div {
 }
 
 .contatos {
-    
     align-items: stretch;
-    
     margin: 10px 10px 10px 10px;
 }
