@@ -67,10 +67,17 @@ h4{
 p{
     text-align: justify;
     text-indent: 30px;
+    margin: 8px;
+    font-size: 1.1em;
 }
 
 ul {
     list-style-position: inside;
+    text-align: justify;
+    text-indent: 30px;
+    margin: 8px;
+    margin-left: 0px;
+    font-size: 1.1em;
 }
 
 div {
@@ -150,9 +157,12 @@ footer{
 
 p#dev{
     text-indent: 0px;
-    text-align: end;
+    margin: 0px;
+    font-size: 1em;
 }
 
 .lang{
     text-align: right;
+    margin: 0px;
+    font-size: 1em;
 }
