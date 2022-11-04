@@ -25,6 +25,16 @@ body{
 
 }
 
+header{
+    background-color: var(--color6);
+    box-shadow: 5px 5px 5px var(--color4);
+}
+
+p#menubar {
+    text-indent: 0px;
+    padding: 10px;
+}
+
 main {
     background-color: #ffffff;
     border-radius: 10px;
@@ -41,8 +51,9 @@ main {
 h1 {
     text-align: left;
     font-size: 3em;
-    margin: auto;
-    margin-top: 0px;
+    margin: 0px;
+    padding: 10px 0px 0px 10px;
+    color: white;
 }
 
 h2{
