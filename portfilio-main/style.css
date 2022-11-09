@@ -45,8 +45,17 @@ header{
 }
 
 p#menubar {
+    font-family: 'title', Times, serif;
+
     text-indent: 0px;
     padding: 10px;
+    padding-top: 0px;
+    display: flex;
+}
+
+.menu{
+    display: block;
+    padding: 5px;
 }
 
 main {
@@ -68,20 +77,22 @@ h1 {
     text-align: left;
     font-size: 3em;
     margin: 0px;
-    padding: 10px 0px 0px 10px;
+    padding: 10px;
+    padding-bottom: 0px;
     color: white;
 }
 
 h2{
     text-align: left;
-    font-size: 2em;
+    font-size: 1.7em;
+    font-family: 'title', Times, serif;
 }
 
 h3{
     font-family: 'subtitle', Arial, Helvetica, sans-serif;
 
     text-align: left;
-    font-size: 1.4em;
+    font-size: 1.5em;
     color: white;
     background-color: var(--color6);
     border-radius: 10px 10px 0px 0px;
@@ -91,8 +102,11 @@ h3{
 }
 
 h4{
+    font-family: 'subtitle', Arial, Helvetica, sans-serif;
+
     text-align: left;
-    font-size: 1.2em;
+    font-size: 0.9em;
+    padding: 7px;
 }
 
 p{
