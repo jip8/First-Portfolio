@@ -31,11 +31,12 @@
 }
 
 body{
-    min-width: 1050px;
+    
     background-image:linear-gradient(45deg, var(--color2),var(--color1));
     background-position: center center;
     background-size: cover;
     height: 100%;
+    width: 100%;
 
 }
 
@@ -44,18 +45,23 @@ header{
     box-shadow: 0px 5px 5px var(--color4);
 }
 
-p#menubar {
-    font-family: 'title', Times, serif;
-
-    text-indent: 0px;
-    padding: 10px;
+nav#menubar {
     padding-top: 0px;
     display: flex;
 }
 
-.menu{
+nav > a {
     display: block;
-    padding: 5px;
+    padding: 10px;
+    margin: 5px;
+    text-decoration: none;
+    font-weight: bolder;
+    transition-duration: .5s;
+}
+
+nav > a:hover {
+    background-color: var(--color4);
+    color: var(--color6);
 }
 
 main {
@@ -64,7 +70,7 @@ main {
     box-shadow: 5px 5px 5px var(--color4);
     color: var(--color6);
     width: 1050px;
-    height: 1420px;
+    height: 1570px;
     padding: 10px;
     margin: auto;
     margin-top: 15px;
@@ -107,6 +113,15 @@ h4{
     text-align: left;
     font-size: 0.9em;
     padding: 7px;
+}
+
+h5{
+    text-indent: 20px;
+    text-align: left;
+    font-size: 1.7em;
+    font-family: 'title', Times, serif;
+    margin: 10px;
+    margin-left: 0px;
 }
 
 p{
@@ -192,22 +207,64 @@ article {
     margin: 7px;
 }
 
+div#proj{
+    display: flex;
+    justify-content: space-around;
+    width: 1050px;
+}
+
+.proj{
+    display: flex;
+    width: 20%;
+    height: 150px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: var(--color6);
+    align-items: center;
+    justify-content: center;
+}
+
+.pj{
+    font-family: 'subtitle', Arial, Helvetica, sans-serif;
+
+    text-indent: 0px;
+    display: block;
+    text-decoration: none;
+    
+}
+
 footer{
     margin: 0px;
     background-color: var(--color3);
     display: flex;
     flex-direction: justify;
     justify-content: space-between;
+    width: 100%;
+}
+
+footer > div {
+    display: flex;
+    align-items: flex-end;
 }
 
 p#dev{
+    display: block;
     text-indent: 0px;
     margin: 0px;
     font-size: 1em;
+
+}
+
+div#lang{
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
 }
 
 .lang{
     text-align: right;
     margin: 0px;
     font-size: 1em;
+    text-decoration: none;
+    color: black;
 }
